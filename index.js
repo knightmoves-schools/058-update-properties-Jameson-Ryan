@@ -3,7 +3,9 @@ let person = {
 };
 
 function celebrateBirthday() {
-  return person.age++;
+  person.age += 1;
+  return person;
 }
+
 
 
